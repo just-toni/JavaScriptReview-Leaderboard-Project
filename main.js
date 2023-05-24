@@ -115,7 +115,7 @@ addPlayerButton.addEventListener('click', e => {
         /**
          * the delete icon was gotten from https://www.flaticon.com/free-icon/trash-can_4734087?term=delete&page=2&position=47&origin=search&related_id=4734087
          */
-        deleteButtonImage.setAttribute('src', '../Day28_Leaderboard/img/delete.png');
+        deleteButtonImage.setAttribute('src', './img/delete.png');
         deleteButtonImage.setAttribute('alt', 'Delete Icon');
         deleteButton.appendChild(deleteButtonImage);
         userName.textContent = input1.value.toUpperCase() + " " + input2.value.toUpperCase();
